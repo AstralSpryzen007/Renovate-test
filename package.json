@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.30.0",
     "braces": "^2.3.2",
     "clean-css": "^4.1.9",
     "cryptiles": "^2.0.5",
