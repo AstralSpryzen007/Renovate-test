@@ -1,6 +1,30 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended"
-  ]
+  "extends": ["config:recommended"],
+
+  
+  "packageRules": [
+    {
+      "enabled": false,
+      "matchPackageNames": ["*"]
+    }
+  ],
+
+
+  "vulnerabilityAlerts": {
+    "enabled": true
+  },
+  "osvVulnerabilityAlerts": true,
+
+ 
+  "lockFileMaintenance": {
+    "enabled": true,
+    "labels": ["security", "transitive-fix"],
+    "schedule": ["at any time"]
+  },
+
+  
+  "commitMessagePrefix": "fix(deps):",
+  "commitMessageAction": "security update",
+  "dependencyDashboard": true
 }
