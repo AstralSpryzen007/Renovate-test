@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "axios": "^0.21.0",
-    "braces": "^2.3.2",
+    "braces": "^3.0.0",
     "clean-css": "^4.1.9",
     "cryptiles": "^2.0.5",
     "debug": "^2.6.8",
